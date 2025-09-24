@@ -1,0 +1,24 @@
+body {
+    background-image: url("abstractbg.jpg");
+    background-size: cover;
+}
+
+td, th, fieldset {
+    color:antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    color:antiquewhite;
+}
+
+
+h2 {
+    text-align: center;
+    color:antiquewhite;
+}
+
+p {
+    text-align: center;
+    color:antiquewhite;
+}

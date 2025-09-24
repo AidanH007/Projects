@@ -1,0 +1,41 @@
+body {
+    background-image: url("Competitive\ Ranks.jpeg");
+    background-size: 101%;
+    background-repeat:repeat-y;
+    background-position-x: center;
+}
+
+h1 {
+    color:blue;
+    text-align: center;
+}
+
+p {
+    color: white;
+    background-color: black;
+}
+
+h2 {
+    color: white;
+}
+
+a {
+    color:aquamarine;
+}
+
+a:hover {
+    background-color: white;
+}
+
+legend {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+table {
+    color: white;
+    border-radius: 10%;
+}

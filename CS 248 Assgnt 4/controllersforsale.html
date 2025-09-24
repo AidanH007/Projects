@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Controllers For Sale</title>
+<link href="ordersummary.css" type="text/css" rel="stylesheet">
+<script src="form.js" type="text/javascript">
+
+</script>
+</head>
+<body>
+<h1>Controllers For Sale</h1>
+<h2> DISCLAIMER: This is a school project - not legit</h2>
+<p>Come take a look at our amazing deals happening now!</p>
+<form name="orderForm" action="ordersummary.php" method="post" >
+<table>
+    <tr>
+        <td>
+            <img src="PS4dualshock.jpg" alt="PS4 dualshock controller" width="400" height="200">
+        </td>
+        <td>
+            PS4 Dualshock Wireless Controller</br>
+            Price - $62.24</br>
+            <label for="dwc">Order Now: </label>
+            <input type="checkbox" name="items[PS4 Dualshock Wireless Controller]" value="62.24" id="dwc" class="items"></input>
+        </td>
+        <td>
+            <img src="Xboxcontroller.jpg" alt="Xbox controller" width="350" height="250">
+        </td>
+        <td>
+            Xbox Wireless Controller</br>
+            Price - $25.72</br>
+            <label for="xbc">Order Now: </label>
+            <input type="checkbox" name="items[Xbox Controller]" value="25.72" id="xbc" class="items"></input>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="Switchprocontroller.jpg" alt="Switch pro controller" width="350" height="300">
+        </td>
+        <td>
+            Nintendo Switch Pro Controller</br>
+            Price - $63.21</br>
+            <label for="spc">Order Now: </label>
+            <input type="checkbox" name="items[Switch Pro Controller]" value="63.21" id="spc" class="items"></input>
+        </td>
+        <td>
+            <img src="wiiremotecontroller.jpg" alt="Wii remote" width="250" height="200">
+        </td>
+        <td>
+            Wii Controller</br>
+            Price - $16.28</br>
+            <label for="wr">Order Now: </label>
+            <input type="checkbox" name="items[Wii Controller]" value="16.28" id="wr" class="items"></input>
+        </td>
+    </tr>
+</table>
+<fieldset>
+    <legend>
+        Order Form
+    </legend>
+    <label class="heading" for="firstname" id="fnamelabel">
+        First Name:
+    </label>
+    <input type="text" name="firstname" id="firstname" /><br />
+    <label class="heading" for="lastname" id="lnamelabel">
+        Last Name:
+    </label>
+    <input type="text" name="lastname" id="lastname" /><br />
+    <label class="heading" for="street" id="streetlabel">
+        Street:
+    </label>
+    <input type="text" name="street" id="street" /><br />
+    <label class="heading" for="city" id="citylabel">
+        City:
+    </label>
+    <input type="text" name="city" id="city" /><br />
+    <label class="heading" for="state" id="statelabel">
+        State:
+    </label>
+    <input type="text" name="state" id="state" /><br />
+    <label class="heading" for="zip" id="ziplabel">
+        Zip:
+    </label>
+    <input type="text" name="zip" id="zip" /><br />
+
+    <label class="heading">Credit Card:</label>
+    <label><input type="radio" name="credit" value="mc"/>Mastercard</label>
+    <label><input type="radio" name="credit" value="Visa"/>Visa</label>
+    <label><input type="radio" name="credit" value="ae"/>American Express</label>
+
+    <button type="button" onClick="submitForm()">Place Order</button>
+</fieldset></br>
+</form>
+</body>
+</html>

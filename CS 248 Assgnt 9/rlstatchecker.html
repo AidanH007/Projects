@@ -1,0 +1,66 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CS 248 Assignment 9</title>
+    <link href="rlstatchecker.css" type="text/css" rel="stylesheet">
+    <script src="rlstatchecker.js" type="text/javascript">
+
+    </script>
+</head>
+<body>
+    <h1>Rocket League Stat Checker</h1>
+    <p>This is based off the lifetime statistics in the web application: rltracker.</p>
+    <a href="https://rocketleague.tracker.network/rocket-league/profile/steam/76561198354423366/overview">My rltracker</a>
+    <h2>Look up your tracker and put your information here:</h2>
+    <form name="orderForm" action="rlstatchecker.php" method="post" >
+        
+        <fieldset>
+            <legend>
+                Upload Data
+            </legend>
+            <label class="heading" for="gamertag" id="gamertaglabel">
+                Gamertag:
+            </label>
+            <input type="text" name="gamertag" id="gamertag" /><br />
+            <label class="heading" for="wins" id="winslabel">
+                Wins:
+            </label>
+            <input type="text" name="wins" id="wins" /><br />
+            <label class="heading" for="goals" id="goalslabel">
+                Goals:
+            </label>
+            <input type="text" name="goals" id="goals" /><br />
+            <label class="heading" for="assists" id="assistslabel">
+                Assists:
+            </label>
+            <input type="text" name="assists" id="assists" /><br />
+            <label class="heading" for="mvps" id="mvpslabel">
+                MVPs:
+            </label>
+            <input type="text" name="mvps" id="mvps" /><br />
+            <label class="heading" for="goalshotratio" id="goalshotratiolabel">
+                GoalShotRatio:
+            </label>
+            <input type="text" name="goalshotratio" id="goalshotratio" /><br />
+            <label class="heading" for="shots" id="shotslabel">
+                Shots:
+            </label>
+            <input type="text" name="shots" id="shots" /><br />
+            <label class="heading" for="saves" id="saveslabel">
+                Saves:
+            </label>
+            <input type="text" name="saves" id="saves" /><br />
+        
+            <button type="button" onClick="submitForm()">Upload to Database</button>
+        </fieldset></br>
+        </form>
+        <form action="search.php" method="post">
+            <fieldset>
+                <legend>Search Database By Gamertag</legend>
+                <label for="search_gamertag">Gamertag:</label>
+                <input type="text" name="search_gamertag" id="search_gamertag">
+                <button type="submit">Search</button>
+            </fieldset>
+        </form>        
+    </body>
+</html>

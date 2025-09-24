@@ -1,0 +1,20 @@
+h2 {color: #ff0000}
+h1 {color: #0000ff; text-align: center;}
+ul {list-style-type: square;}
+.items li:nth-child(1) {list-style-type: disc;} 
+.items li:nth-child(2) {list-style-type: square;}
+.items li:nth-child(3) {list-style-type: circle;}
+.items li:nth-child(n+4) {list-style-type: lower-roman;}
+#movies {color: green; font-family: system-ui;}
+#hobbies {color: #959e36; font-family: fantasy;}
+#websites {color: purple; font-family: cursive;}
+ul li a:hover {color:red;}
+img {width: 25%; border: solid black;}
+td {background-color: yellow; text-align: center;}
+th {background-color: yellow;}
+#lunchtime {color: pink;}
+.cns200 {color: red;}
+.cs125 {color:green;}
+.cns200lab {color:blue;}
+.cs248 {color:purple;}
+.cnit301 {color: #039c75;}
